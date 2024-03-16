@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <ion-icon  style="font-size: 9vw; font-weight: 900; color:#14cf93;" onclick="hidesidebar()" style="font-size: 3.5vw;" name="close-outline"></ion-icon>
+            <a href="#Home">Home</a>
+            <a href="#">Works</a>
+            <a href="#">Socials</a>
+            <a href="#">Contact</a>
+            <div class="socials">
+                <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#">  <ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#">  <ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#" id="logo">KESHAV.</a>
+            <a href="#" class="nav-part-2">Works</a>
+            <a href="#" class="nav-part-2">Socials</a>
+            <a href="#" class="nav-part-2">Contact</a>
+  
+        <div class="menu-icon">
+            <a href="#" onclick=showsidebar()><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        </div>
+    </header>
+ 
+    <section  id="Home" class="content">
+        <div class="free">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg fill="#000000" height="100px" style="color:#999896 ;" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                 viewBox="0 0 362.667 362.667" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M352,0c-5.867,0-10.667,4.8-10.667,10.667v315.627L18.24,3.093C13.973-0.96,7.253-0.853,3.2,3.307
+                        c-3.947,4.16-3.947,10.667,0,14.827l323.093,323.2H10.667C4.8,341.333,0,346.133,0,352c0,5.867,4.8,10.667,10.667,10.667H352
+                        c5.867,0,10.667-4.8,10.667-10.667V10.667C362.667,4.8,357.867,0,352,0z"/>
+                </g>
+            </g>
+            </svg>
+	 
+            <p>CURRENTLY AVAILABLE FOR FREELANCE WORLWIDE</p>
+        </div>
+        <div class="heading">
+        <h1>
+            CREATIVE FRONT - END, 
+            <SPAN>DEVELOPER</SPAN>
+        </h1>
+        </div>
+        
+        <div class="home-p">
+        <P>Hey, it's Keshav,  A freelance frontend developer for <span> propelling startup visions to reality ,<span id="obsessed"> Obsessed</span> with Coding. </span>
+    </section>
+       <div class="socials">
+           <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+           <a href="#">  <ion-icon name="logo-instagram"></ion-icon></a>
+           <a href="#">  <ion-icon name="logo-github"></ion-icon></a>
+       </div>
+
+     <!----------------------------------------------- ABOUT ME PAGE ----------------------------------->
+
+     <section id="About">
+        <div class="about">
+        <h1>About <span>Me</span></h1>
+         <div class="about-img">
+         <img src="img.jpg" alt="image">
+         </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia quas commodi iusto eius, iste aperiam, nisi eos iure nesciunt repellendus perferendis molestias. Fugit perspiciatis vero voluptatum ab totam quibusdam doloremque. Impedit reprehenderit earum, corrupti laboriosam veritatis autem consectetur iste.</p>
+         <div class="about-btn">
+        <a href="#"><ion-icon style="color: white;" name="chatbox-ellipses-outline"></ion-icon>Contact</a>
+    </div>
+        </div>
+
+      
+     </section>
+    
+
+     <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+     </script>
+
+
+</body>
+</html>
